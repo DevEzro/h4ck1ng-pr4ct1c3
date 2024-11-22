@@ -10,3 +10,8 @@ en las tablas. Encuéntralos</h4>
 > [!TIP] #2: Pr83b44854rh1dr4
 
 > [!TIP] #3: La clave está en las tablas
+
+
+#### Despliegue en local
+`docker build -t story_boris .`
+`docker run -d -p 5432:5432 --name story_boris_container story_boris`
